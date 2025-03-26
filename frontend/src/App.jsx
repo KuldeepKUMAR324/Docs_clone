@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className='flex'>
+      <div className='flex justify-between items-center p-4'>
         <div>
           <img 
             src="https://storage.googleapis.com/gweb-workspace-assets/uploads/7uffzv9dk4sn-7kAnuMn2JYM8SouH9sUO1Y-5decaa2561233114d97a43fceaa78f4f-Docs_Full_Logo.svg" 
@@ -26,7 +26,7 @@ function App() {
 
           <button 
             type="button" 
-            className="focus:outline-none text-white ml-24 mt-10 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 "
+            className="focus:outline-none text-white ml-24 mt-10 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
           >
             SignUp
           </button>
@@ -38,6 +38,16 @@ function App() {
             className='h-110' 
             alt="Illustration"
           />
+        </div>
+
+        {/* Navigation with Login Button */}
+        <div className='login'>
+          <button 
+            type="button" 
+            className="focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+          >
+            Login
+          </button>
         </div>
       </div>
 
